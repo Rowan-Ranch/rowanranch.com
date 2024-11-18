@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #E9E6E1;
+    color: #503D27;
+}
+
+html .bento-header {
+    color: #9D7B4B;
+}
+
+html .livestock-association-flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+html .livestock-association-flexbox .livestock-association {
+    width: 250px;
+}
+
+html .livestock-association-flexbox .livestock-association img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+}
+
+html .livestock-association-flexbox .livestock-association #tsgra {
+    top: 50px;
+}
+
+html .asseen-flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+html .asseen-flexbox .asseen {
+    width: 250px;
+}
+
+html .asseen-flexbox .asseen img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+}
+
+footer {
+    text-align: center;
+}
